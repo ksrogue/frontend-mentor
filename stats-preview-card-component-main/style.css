@@ -29,7 +29,6 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 400px;
-    filter:   brightness(64%)  saturate(64%) contrast(1);
 }
 
 .content {
@@ -67,7 +66,6 @@ h1 span {
 
 .overlay {
     position: fixed;
-    top: ;
     width: 485px;
     height: 400px;   
     background-color: rgba(76, 31, 104, 0.699);
