@@ -50,26 +50,34 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 .ethereum-txt {
     color: hsl(178, 100%, 50%);
-    margin-bottom: 15px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 .ethereum-txt img {
-    width: 12px;
-    margin-right: 3px;
+    margin-right: 8px;
 }
 
 .ethereum-time {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.ethereum-time img {
+    margin-right: 8px;
 }
 
 hr {
     border: none;
     border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: auto;
     margin-bottom: 20px;
+    width: 98%;
 }
 
 .avatar {
@@ -82,7 +90,7 @@ hr {
     color: hsl(0, 0%, 100%);
 }
 .avatar img {
-    border: 2px solid hsl(0, 0%, 100%);
+    border: 1.8px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     width: 50px;
     margin-right: 20px;
