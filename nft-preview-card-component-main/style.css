@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.equilibrium {
+    width: 320px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.desc {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.ethereum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ethereum-txt {
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.ethereum-txt img {
+    width: 12px;
+    margin-right: 3px;
+}
+
+.ethereum-time {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.avatar {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.avatar span {
+    color: hsl(0, 0%, 100%);
+}
+.avatar img {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.attribution {
+    color: whitesmoke;
+    font-size: .8em;
+    margin-top: 15px;
+}
