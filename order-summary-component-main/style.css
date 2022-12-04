@@ -25,14 +25,14 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: hsl(225, 100%, 98%);
-    width: 310px;
+    width: 375px;
     border-radius:20px;
     box-shadow: 0px 5px 15px hsla(224, 23%, 55%, .1);
     margin-top: 15vh;
 }
 
 .hero {
-    width: 310px;
+    width: 375px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
