@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: covern;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 98%);
+    width: 375px;
+    border-radius:20px;
+    box-shadow: 0px 5px 15px hsla(224, 23%, 55%, .1);
+}
+
+.hero {
+    width: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 25px;
+    margin: 25px 0;
+}
+.desc {
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 35px 0;
+}
+.plan img {
+    margin-right: -30px;
+}
+.plan h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 900;
+}
+.plan p {
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+}
+.plan a {
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    font-size: 16px;
+}
+.plan a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.pay-button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    height: 50px;
+    box-shadow: 0px 10px 15px hsla(224, 23%, 55%, .3);
+    cursor: pointer;
+}
+.pay-button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-order {
+    font-weight: 900;
+    font-size: 1em;
+    margin: 25px 0;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+footer {
+    margin: 30px 0;
+    color: hsl(223, 47%, 23%);
+}
+
