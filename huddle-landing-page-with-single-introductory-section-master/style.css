@@ -77,10 +77,18 @@ body {
 
 .icons {
     color: white;
+    margin: 10px 0;
 }
 .icons i {
     font-size: 25px;
     margin: 0 5px;
+}
+
+footer {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: .8em;
 }
 
 
