@@ -104,7 +104,7 @@
 
 @media screen and (min-width: 769px) {
     body {
-        background: hsl(257, 40%, 49%) url(images/bg-desktop.svg);
+        background: hsl(257, 40%, 49%) url(images/bg-desktop.svg) no-repeat center;
         width: 1440px;
         color: #fff;
         display: flex;
