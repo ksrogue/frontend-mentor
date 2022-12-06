@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+}
+
+@media screen and (max-width: 768px) {
+
+
+    body {
+        width: 100vw;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 375px;
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px rgba(146, 146, 146, 0.151);
+        margin: 30px 0;
+        overflow: hidden;
+    }
+
+    .join-com {
+        background-color: #fff;
+        padding: 25px;
+    }
+
+    .join-com h1 {
+        color: hsl(179, 62%, 43%);
+        font-size: 1.48em;
+        margin-bottom: 20px;
+    }
+
+    .join-com h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .join-com p {
+        color: hsl(218, 22%, 67%);
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .m-sub {
+        background-color: hsl(179, 62%, 43%);
+        padding: 25px;
+    }
+
+    .m-sub h1 {
+        color: #fff;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .m-sub p {
+        color: #fff;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .price p {
+        color: hsl(204, 43%, 93%);
+    }
+
+    .price span {
+        color: hsl(204, 43%, 93%);
+        font-size: 2em;
+        font-weight: 700;
+        margin-right: 15px;
+
+    }
+
+    .button {
+        background-color: hsl(71, 73%, 54%);
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 10px hsl(179, 62%, 35%);
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .button a {
+        text-decoration: none;
+        font-family: 'Karla';
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .why-us {
+        background-color: hsl(179, 47%, 52%);
+        padding: 30px;
+        color: hsl(204, 43%, 93%);
+    }
+
+    .why-us h1 {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .why-us p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        color: hsl(71, 73%, 54%);
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        width: 100vw;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: 50%;
+        border-radius: 5px;
+        box-shadow: 0px 1px 10px rgba(146, 146, 146, 0.151);
+        margin: 100px 0;
+        overflow: hidden;
+    }
+
+    .desk-div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .join-com {
+        background-color: #fff;
+        padding: 30px;
+    }
+
+    .join-com h1 {
+        color: hsl(179, 62%, 43%);
+        font-size: 1.48em;
+        margin-bottom: 15px;
+    }
+
+    .join-com h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+    .join-com p {
+        color: hsl(218, 22%, 67%);
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+
+    .m-sub {
+        background-color: hsl(179, 62%, 43%);
+        padding: 30px;
+        width: 50%;
+    }
+
+    .m-sub h1 {
+        color: #fff;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .m-sub p {
+        color: #fff;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .price p {
+        color: hsl(204, 43%, 93%);
+    }
+
+    .price span {
+        color: hsl(204, 43%, 93%);
+        font-size: 2em;
+        font-weight: 700;
+        margin-right: 15px;
+
+    }
+
+    .button {
+        background-color: hsl(71, 73%, 54%);
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 10px hsl(179, 62%, 35%);
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .button a {
+        text-decoration: none;
+        font-family: 'Karla';
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .why-us {
+        background-color: hsl(179, 47%, 52%);
+        padding: 30px;
+        color: hsl(204, 43%, 93%);
+        width: 50%;
+    }
+
+    .why-us h1 {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .why-us p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        color: hsl(71, 73%, 54%);
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
