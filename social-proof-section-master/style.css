@@ -237,6 +237,7 @@
     .cards p {
         color: hsl(0, 0%, 100%);
         margin-top: 25px;
+        line-height: 20px;
     }
 
     .attribution {
