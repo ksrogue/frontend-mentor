@@ -51,3 +51,10 @@ main p {
     text-align: center;
     margin: 15px 25px 30px;
 }
+
+.attribution {
+    margin-top: 15px;
+    color: var(--dark-blue);
+    font-style: var(--main-font);
+    font-weight: bolder;
+}
